@@ -1,307 +1,347 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Fisiosalud Daniel Moreno",
+  logo: "/images/logo.png",
+  tagline: "Tu fisioterapeuta de confianza en Murcia, Álava",
+  description: "Fisiosalud Daniel Moreno es tu clínica de fisioterapia en Murcia, Álava, especializada en tratamiento manual y recuperación deportiva. Con una valoración de 4.6 estrellas en Google, Daniel Moreno ofrece atención personalizada, diagnósticos precisos y técnicas efectivas para dolor de espalda, contracturas y lesiones deportivas. Disponibilidad flexible, incluso fines de semana para urgencias.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#0496ea",
+    secondary: "#012d46",
+    accent: "#c8e9f3",
+    neutral: "#ebf7fd"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "672 22 24 51",
+  whatsapp: "+34672222451",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "C/ Puerta Nueva, 22 Entresuelo, Oficina 1, 30008 Murcia, España",
+    city: "Murcia",
+    province: "Álava",
+    postalCode: "30008",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=9916086249905005017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Fisiosalud%20Daniel%20Moreno%20%4037.9918%2C-1.12807&z=16&output=embed",
+  coordinates: {
+    lat: 37.9918,
+    lng: -1.12807
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "9:00–21:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "9:00–20:00"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.6,
+    count: 41,
+    url: "https://maps.google.com/?cid=9916086249905005017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Diego M.",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Llevaba una semana en cama sin poder moverme por tener la espalda pinzada. Por un compromiso de trabajo tuve que viajar de a Murcia, durante el día notaba como el dolor iba creciendo, así que decidí buscar de urgencia a alguien que pudiese atenderme un sábado a la tarde-noche, de rebote llegó el contacto de Daniel y fue la mejor decisión que pude tomar: además de ser consciente de algunos puntos “débiles” de mis rutinas físicas, encontró exactamente lo que me pasaba en la espalda y ya noté que salía de la clínica mucho mejor y, además, al día siguiente me levanté como si nada hubiese pasado. Gran profesional, exquisita atención y trato.",
+        date: "Hace 3 años"
       },
       {
-        author: "Javier Padilla",
+        author: "Cristina Moreno",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Gran profesional, que no duda en dedicar mucho tiempo al trato de dolencias o lesiones. Hace las preguntas necesarias para elaborar el diagnóstico y es muy sistemático en el tratamiento. El trato es inmejorable, y el tratamiento se ha adaptado a cómo me encontraba en cada caso. Lo conocí por una recomendación de una amiga y hace más de un año que voy de manera regular. Lo recomiendo!!!",
+        date: "Hace 3 años"
       },
       {
-        author: "Melanie Ponce",
+        author: "Bexzy Gallego",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Excelente! Ha sido mi 1er fisio y con él me quedo. Acudí simplemente por descarga post entreno pero me ha ayudado en otras molestias que me han surgido. Siempre está atento a lo que dices de la dolencia, explica las causas y da recomendaciones. Responde rápido para agendar o consultas. Recomendado!",
+        date: "Hace 5 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Paulino Moraleda",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Totalmente recomendable! He venido a Murcia a jugar un torneo de basket y Dani me ha atendido un sábado de urgencia para descargarme una contractura y poder jugar el partido. Súper amable y súper profesional.",
+        date: "Hace 2 meses"
       },
-    ],
+      {
+        author: "Bexzaida Castañeda",
+        rating: 5,
+        text: "Daniel es el mejor fisio que hemos conocido, mi familia y yo lo consideramos \"mano de Santo\". Sus técnicas son extraordinarias, sanadoras y efectivas. Altamente recomendado.",
+        date: "Hace 1 mes"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Técnicas manuales especializadas que identifican con precisión el origen de tu dolor. Daniel utiliza métodos avanzados de palpación y tratamiento manual para desbloquear articulaciones, liberar tensiones musculares y restaurar la movilidad completa. Tratamiento sistemático y personalizado según tu dolencia específica.",
+      benefits: [
+        "Diagnóstico preciso del origen del dolor",
+        "Alivio inmediato desde la primera sesión",
+        "Recuperación de la movilidad completa"
+      ],
+      icon: "Hand"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "tratamiento-espalda",
+      name: "Tratamiento de Espalda",
+      description: "Especialización en dolor de espalda, pinzamientos y bloqueos vertebrales. Identificamos los puntos débiles de tus rutinas físicas y aplicamos el tratamiento específico para cada caso. Resultados comprobados en casos agudos, con pacientes que han pasado de no poder moverse a recuperación total en 24 horas.",
+      benefits: [
+        "Solución efectiva para pinzamientos",
+        "Recuperación rápida del movimiento",
+        "Prevención de futuras lesiones"
+      ],
+      icon: "Activity"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "fisioterapia-deportiva",
+      name: "Fisioterapia Deportiva",
+      description: "Tratamiento especializado para deportistas y atletas. Descargas post-entreno, preparación pre-competición y tratamiento de lesiones deportivas. Atención urgente disponible para permitirte competir en tu mejor estado, incluso en torneos y compromisos deportivos importantes.",
+      benefits: [
+        "Descarga muscular post-entreno efectiva",
+        "Tratamiento urgente pre-competición",
+        "Prevención de lesiones deportivas"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "tratamiento-contracturas",
+      name: "Tratamiento de Contracturas",
+      description: "Eliminación efectiva de contracturas musculares mediante técnicas manuales avanzadas. Identificamos las causas profundas de las tensiones musculares y aplicamos el tratamiento más adecuado. Especialmente efectivo para contracturas crónicas y tensiones recurrentes que limitan tu día a día.",
+      benefits: [
+        "Eliminación completa de contracturas",
+        "Técnicas efectivas y probadas",
+        "Resultados duraderos"
+      ],
+      icon: "Target"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "rehabilitacion-lesiones",
+      name: "Rehabilitación de Lesiones",
+      description: "Programas de rehabilitación personalizados adaptados a cómo te encuentras en cada sesión. Seguimiento continuo y sistemático de tu evolución, ajustando el tratamiento según tus progresos. Ideal para recuperación post-lesión y vuelta progresiva a tu actividad normal.",
+      benefits: [
+        "Tratamiento adaptado a tu evolución",
+        "Seguimiento sistemático continuo",
+        "Recuperación completa y segura"
+      ],
+      icon: "Activity"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "atencion-urgencias",
+      name: "Atención de Urgencias",
+      description: "Disponibilidad para atender urgencias, incluso sábados y festivos. Si tienes un compromiso importante o necesitas tratamiento inmediato, Daniel se adapta para ofrecerte la atención que necesitas cuando más la necesitas. Respuesta rápida para agendar citas urgentes.",
+      benefits: [
+        "Disponibilidad fines de semana",
+        "Atención inmediata en urgencias",
+        "Respuesta rápida a consultas"
+      ],
+      icon: "Zap"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "valoracion-personalizada",
+      name: "Valoración Personalizada",
+      description: "Evaluación completa con las preguntas necesarias para elaborar un diagnóstico preciso. Daniel dedica el tiempo necesario para entender tu dolencia, identificar puntos débiles en tus rutinas y diseñar el tratamiento más efectivo. Primera sesión orientada a conocer tu caso en profundidad.",
+      benefits: [
+        "Diagnóstico preciso y completo",
+        "Tiempo dedicado sin prisas",
+        "Plan de tratamiento personalizado"
+      ],
+      icon: "Heart"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "tratamiento-preventivo",
+      name: "Tratamiento Preventivo",
+      description: "Sesiones regulares de mantenimiento para prevenir lesiones y mantener tu estado físico óptimo. Identificación de debilidades posturales y musculares antes de que se conviertan en lesiones. Recomendaciones específicas para mejorar tus hábitos y rutinas físicas diarias.",
+      benefits: [
+        "Prevención de futuras lesiones",
+        "Mantenimiento del estado físico",
+        "Recomendaciones personalizadas"
+      ],
+      icon: "Target"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
       title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      description: "Llama al 672 22 24 51 o envía un WhatsApp para solicitar tu cita. Respuesta rápida para agendar, con disponibilidad flexible incluso para urgencias en fin de semana."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración Completa",
+      description: "Daniel dedica el tiempo necesario para hacer las preguntas adecuadas, entender tu dolencia y elaborar un diagnóstico preciso. Identificamos exactamente qué te pasa y los puntos débiles de tus rutinas."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento Personalizado",
+      description: "Aplicamos técnicas manuales especializadas adaptadas a tu caso específico. Tratamiento sistemático que se ajusta a cómo te encuentras en cada sesión, sin protocolos rígidos."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento y Recuperación",
+      description: "Seguimiento continuo de tu evolución con recomendaciones específicas para prevenir recaídas. Atención constante hasta tu completa recuperación y vuelta a tu actividad normal."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Excelente Valoración de Pacientes",
+      description: "Con 4.6 estrellas en Google y 41 reseñas verificadas, nuestros pacientes destacan los resultados inmediatos, el trato profesional y cercano, y la capacidad de Daniel para identificar exactamente el origen del problema. Testimonios reales de personas que han recuperado su bienestar.",
+      icon: "Heart"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Diagnóstico Preciso y Personalizado",
+      description: "Daniel dedica el tiempo necesario para hacer las preguntas adecuadas y elaborar un diagnóstico preciso. Enfoque sistemático que identifica puntos débiles en tus rutinas y encuentra exactamente qué te pasa, sin prisas ni protocolos genéricos.",
+      icon: "Target"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Resultados Desde la Primera Sesión",
+      description: "Pacientes que no podían moverse han salido de la clínica con alivio inmediato y recuperación completa en 24 horas. Técnicas manuales avanzadas que proporcionan resultados reales y duraderos, adaptadas a tu dolencia específica.",
+      icon: "Zap"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Disponibilidad y Atención Urgente",
+      description: "Atención flexible incluso en sábados y urgencias, con respuesta rápida para agendar citas. Si tienes un compromiso importante o necesitas tratamiento inmediato, Daniel se adapta para ofrecerte la atención que necesitas cuando más la necesitas.",
+      icon: "Activity"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Daniel Moreno",
+      role: "Fisioterapeuta Titulado",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Fisiosalud Daniel Moreno nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Fisiosalud Daniel Moreno - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Fisiosalud Daniel Moreno - Imagen 2"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Fisiosalud Daniel Moreno - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Fisiosalud Daniel Moreno - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Fisiosalud Daniel Moreno - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Fisiosalud Daniel Moreno - Imagen 6"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué tipo de lesiones trata Fisiosalud Daniel Moreno?",
+      answer: "En Fisiosalud Daniel Moreno tratamos dolor de espalda, pinzamientos vertebrales, contracturas musculares, lesiones deportivas y molestias post-entreno. Daniel es especialista en identificar con precisión el origen del dolor mediante técnicas de fisioterapia manual avanzada. Muchos pacientes han experimentado alivio desde la primera sesión, incluso en casos agudos que les impedían moverse."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Atienden urgencias y fines de semana?",
+      answer: "Sí, Fisiosalud Daniel Moreno ofrece atención de urgencias incluso en sábados y festivos. Si tienes un compromiso deportivo, laboral o necesitas tratamiento inmediato, Daniel se adapta para atenderte cuando más lo necesitas. La respuesta para agendar citas urgentes es muy rápida, contactando por teléfono o WhatsApp al 672 22 24 51."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Cuánto dura una sesión de fisioterapia?",
+      answer: "Daniel Moreno dedica el tiempo necesario en cada sesión sin prisas, adaptándose a tu dolencia específica. La primera valoración suele ser más extensa para hacer un diagnóstico completo con las preguntas necesarias. Las sesiones de tratamiento se ajustan según tu evolución y necesidades, priorizando siempre la calidad y efectividad del tratamiento sobre el tiempo."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Es necesario acudir regularmente o solo cuando hay dolor?",
+      answer: "Fisiosalud Daniel Moreno ofrece ambas opciones según tus necesidades. Muchos pacientes acuden de manera regular para mantenimiento preventivo y descargas post-entreno, mientras otros vienen para tratar dolencias puntuales. Daniel identificará en tu valoración si necesitas seguimiento continuo o tratamientos esporádicos, y te dará recomendaciones personalizadas para prevenir futuras lesiones."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Qué diferencia a Fisiosalud Daniel Moreno de otras clínicas?",
+      answer: "Con 4.6 estrellas en Google y 41 reseñas, los pacientes destacan la capacidad de Daniel para identificar exactamente el origen del problema, su trato cercano y profesional, y los resultados inmediatos desde la primera sesión. El enfoque es sistemático y personalizado, dedicando tiempo real a cada paciente. Además, la disponibilidad para urgencias y la respuesta rápida son valores muy apreciados por quienes confían en la clínica."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Cómo puedo solicitar una cita en Fisiosalud Daniel Moreno?",
+      answer: "Puedes solicitar tu cita llamando directamente al 672 22 24 51 o enviando un WhatsApp al mismo número. Daniel responde rápido para agendar citas y resolver consultas. Si necesitas atención urgente o tienes disponibilidad limitada, comunícalo al contactar para buscar la mejor solución a tu horario."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Trabaja con deportistas y atletas?",
+      answer: "Sí, Fisiosalud Daniel Moreno tiene amplia experiencia en fisioterapia deportiva. Trata lesiones deportivas, realiza descargas post-entreno y ofrece preparación pre-competición. Varios deportistas han acudido en urgencias antes de torneos y competiciones importantes, logrando recuperarse a tiempo para competir. Daniel también ayuda con molestias que surgen durante el entrenamiento y ofrece recomendaciones para optimizar tu rendimiento."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Dónde está ubicada la clínica?",
+      answer: "Fisiosalud Daniel Moreno está ubicada en Murcia, Álava. Para conocer la dirección exacta y cómo llegar, contacta al 672 22 24 51. La clínica ofrece un ambiente profesional y acogedor donde recibirás atención personalizada en cada visita."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Fisiosalud Daniel Moreno",
+    defaultTitle: "Fisiosalud Daniel Moreno | Fisioterapia en Murcia, Álava",
+    defaultDescription: "Clínica de fisioterapia en Murcia, Álava. Tratamiento de espalda, lesiones deportivas y contracturas. Valoración 4.6★ en Google. Atención urgente disponible. ☎ 672 22 24 51",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Murcia",
+      "fisioterapeuta Murcia Álava",
+      "Fisiosalud Daniel Moreno",
+      "tratamiento espalda Murcia",
+      "fisioterapia deportiva Murcia",
+      "contracturas musculares Murcia",
+      "fisio urgencias Murcia",
+      "dolor de espalda Murcia",
+      "lesiones deportivas Álava",
+      "fisioterapia manual Murcia",
+      "clínica fisioterapia Murcia",
+      "Daniel Moreno fisioterapeuta"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Fisiosalud Daniel Moreno",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C/ Puerta Nueva, 22 Entresuelo, Oficina 1, 30008 Murcia, España, Murcia, Álava"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Murcia"
+  ],
+  heroDescription: "En Fisiosalud Daniel Moreno encontrarás un enfoque profesional y cercano para tu recuperación. Tratamientos personalizados con técnicas manuales avanzadas que te devolverán la movilidad y eliminarán el dolor. Atención inmediata disponible, incluso en sábados y urgencias.",
+  specialty: "Fisioterapia Manual Especializada",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Listo para recuperar tu bienestar?",
+  ctaDescription: "Contacta ahora con Fisiosalud Daniel Moreno y agenda tu primera valoración. Atención personalizada y resultados desde la primera sesión.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
